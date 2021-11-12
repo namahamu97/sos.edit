@@ -1,7 +1,22 @@
-.container,header{
+.container1,.container2,header{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
+    column-gap: 10px
+}
+
+.container2,.c2{
+    background-color:#E1F2FF
+}
+
+.hidari{
+    text-align: right;
+    width: 100px;
+}
+
+.migi{
+    justify-content: flex-start;
+     display: flex;
 }
 
 .q{
@@ -21,7 +36,7 @@ text-align: left;
 }
 
 #nen{
-    width: 60px;
+    width: 40px;
 }
 
 #syu,#kyuu1,#kyuu2{
@@ -32,9 +47,14 @@ input{
     height: 30px;
 }
 
-#zyuusyo,#nennkinn,#zyuusyo1{
-    width: 280px;
+#zyuusyo,#zyuusyo1{
+    width: 162px;
 }
+
+#nennkinn{
+    width: 180px;
+}
+
 .button-area{
     text-align: center;
 }
@@ -48,8 +68,8 @@ button{
 
 h1{
     text-align: left;
-    color:  rgb(255, 255, 255);
-    background-color:  #3584bb;
+    color:  #232C3A;
+    background-color:#E1F2FF;
 }
 
 #rank{
@@ -74,6 +94,12 @@ a{
   font-family: 'Kaushan Script', cursive;
   color: black;
   text-decoration: none;
+}
+
+#taitoru{
+    text-align: center;
+     color:  #232C3A;
+     font-size: large;
 }
 
 .renrakusaki{
@@ -131,7 +157,7 @@ a{
       top: 0;
       left: 0;
       z-index: 80;
-      background-color: #3584bb;
+      background-color: #7FA7CF;
   }
   .menu-content ul {
       padding: 70px 10px 0;
@@ -168,7 +194,7 @@ a{
       top: 0;
       left: 0;
       z-index: 80;
-      background-color: #3584bb;
+      background-color: #7FA7CF;
   }
   .menu-content ul {
       padding: 70px 10px 0;
@@ -210,7 +236,7 @@ a{
     top: 0;
     left: 100%;/*leftの値を変更してメニューを画面外へ*/
     z-index: 80;
-    background-color: #3584bb;
+    background-color: #7FA7CF;
     transition: all 0.5s;/*アニメーション設定*/
   }
   .wrapper{
